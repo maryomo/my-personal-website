@@ -1,0 +1,84 @@
+body, html{
+     height: 100%;
+}
+.osas{
+	background: #D70000;
+	overflow: hidden;
+}	
+.osas a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration :none; 
+	padding :14px 16px;
+	font-size:17px;
+}
+.osas a:hover{
+	background-color:#f7b906;
+	color:black; 
+}
+.osas a.active {
+	background-color: #f7b906;
+	color: white;
+}
+.osas-image{
+	background-image: url("../img/pp3.jpg");
+	height:90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+}
+.osas-text{
+	text-align: center;
+	position:  absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color:#D70000;
+}
+.osas-text h1{
+	font-size:3em;
+}
+.osas-text a button{
+	border-radius: 10px;
+	color: white;
+	border-color: white;
+	background-color:#D70000;
+	padding:10px;
+}	
+/*.omo{
+	height: 300px;
+	width: 400px;
+	background: green;
+}
+#osasere{
+	height: 400px;
+	width: 200px;
+	background: blue;
+}
+.me{
+	border-radius: 40px;
+	border: 10px solid black;
+}*/
+.imageosas{
+    width:100%;
+    height:500%;
+  
+}
+footer{
+	background-color: gold;
+	padding: 30px;
+	text-align: center;
+	
+}
+.first{
+	display: inline-flex;
+}
+.second{
+	display: inline-flex;
+}
+.third{
+	display: inline-flex;
+}
